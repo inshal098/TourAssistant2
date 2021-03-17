@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_dashboard.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tourassistant.coderoids.home.fragments.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/tripsFragment"
+        android:name="com.tourassistant.coderoids.home.fragments.TripsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_trips" />
+    <fragment
+        android:id="@+id/editTripFragment"
+        android:name="com.tourassistant.coderoids.home.fragments.EditTripFragment"
+        android:label=""
+        tools:layout="@layout/fragment_edit_trip" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.tourassistant.coderoids.home.fragments.ProfileFragment"
+        android:label="" />
+</navigation>
